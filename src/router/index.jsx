@@ -30,6 +30,8 @@ const router = createBrowserRouter([
   { path: '/login', element: <Login /> },
   { path: '/register', element: <Register /> },
   { path: '/questionnaire', element: <Questionnaire /> },
-]);
+], {
+  basename: '/weight-management2/',
+});
 
 export default router;
